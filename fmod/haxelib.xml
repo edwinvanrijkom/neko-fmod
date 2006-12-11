@@ -1,5 +1,0 @@
-<project name="fmod" url="http://code.google.com/p/neko-fmod/" license="LGPL">
-    <user name="fmod"/>
-    <description>Neko fmod enables using parts of the fmod audio library from Neko/haXe</description>
-    <version name="1.0.0.0">Initial release</version>
-</project>

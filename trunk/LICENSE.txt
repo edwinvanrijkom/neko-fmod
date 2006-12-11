@@ -1,3 +1,18 @@
+Important Notice :
+-----------------------
+
+Beware that the FMOD sound library (which isn't part of this package)
+is copyrighted commercial software. Non-commercial use seems to be free,
+however for factual information on licensing, distribution, etc., 
+please refer to: 
+
+http://www.fmod.org
+
+This package makes the FMOD sound library accessible from the Neko VM.
+The wrapper's licence (so *not* the FMOD sound library's own license) is 
+printed below:
+
+
 The Neko-FMOD LGPL License :
 -----------------------
 

@@ -63,7 +63,7 @@
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
-			OutputDirectory="../bin"
+			OutputDirectory="../bin/win"
 			IntermediateDirectory="Release"
 			ConfigurationType="2"
 			CharacterSet="2">

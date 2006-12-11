@@ -34,10 +34,10 @@ class Beatweaver {
 	static var muted = 
 		[false,false,false,false];
 	static var soundpaths: Array<String> = 
-		[ "samples/70s/bass_muted.aif"
-		, "samples/70s/snare_muted.aif"
-		, "samples/70s/hihat_bark.aif"
-		, "samples/70s/hihat_open.aif"
+		[ "samples/bass_muted.aif"
+		, "samples/snare_muted.aif"
+		, "samples/hihat_bark.aif"
+		, "samples/hihat_open.aif"
 		];
 	static var soundflags
 		= fmod.System.FMOD_SOFTWARE

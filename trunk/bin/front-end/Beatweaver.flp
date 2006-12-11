@@ -1,7 +1,0 @@
-﻿<flash_project name="Beatweaver" version="1">
-    <project_file path="./SeqButton.as" filetype="as" />
-    <project_file path="./SeqButtonBar.as" filetype="as" />
-    <project_file path="./SeqButtonLed.as" filetype="as" />
-    <project_file path="./ui.fla" filetype="fla" profile="" def_file="true" />
-    <project_file path="./Beatweaver.as" filetype="as" />
-</flash_project>

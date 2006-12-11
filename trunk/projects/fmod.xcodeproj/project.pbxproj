@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E8D9A1860B1F296200B1F621 /* api.h in Headers */ = {isa = PBXBuildFile; fileRef = E8D9A1840B1F296200B1F621 /* api.h */; };
 		E8D9A1870B1F296200B1F621 /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = E8D9A1850B1F296200B1F621 /* api.c */; };
 		E8D9A1A80B1F2BC600B1F621 /* libneko.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D9A1A70B1F2BC600B1F621 /* libneko.dylib */; };
 		E8D9A1B10B1F2CD300B1F621 /* libfmodex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D9A1B00B1F2CD300B1F621 /* libfmodex.dylib */; };
@@ -15,7 +14,6 @@
 
 /* Begin PBXFileReference section */
 		D2AAC0630554660B00DB518D /* fmod.ndll */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = fmod.ndll; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8D9A1840B1F296200B1F621 /* api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = api.h; path = ../src/api.h; sourceTree = SOURCE_ROOT; };
 		E8D9A1850B1F296200B1F621 /* api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = api.c; path = ../src/api.c; sourceTree = SOURCE_ROOT; };
 		E8D9A1A70B1F2BC600B1F621 /* libneko.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libneko.dylib; path = /usr/local/lib/libneko.dylib; sourceTree = "<absolute>"; };
 		E8D9A1B00B1F2CD300B1F621 /* libfmodex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmodex.dylib; path = "/Developer/FMOD Programmers API/api/lib/libfmodex.dylib"; sourceTree = "<absolute>"; };
@@ -41,8 +39,6 @@
 				E8D9A1A70B1F2BC600B1F621 /* libneko.dylib */,
 				08FB7795FE84155DC02AAC07 /* Source */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
-				E8D9A1840B1F296200B1F621 /* api.h */,
-				E8D9A1850B1F296200B1F621 /* api.c */,
 			);
 			name = fmod;
 			sourceTree = "<group>";
@@ -50,6 +46,7 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				E8D9A1850B1F296200B1F621 /* api.c */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -69,7 +66,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8D9A1860B1F296200B1F621 /* api.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,10 +144,7 @@
 		1DEB914C08733D8E0010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				ARCHS = i386;
 				EXECUTABLE_EXTENSION = ndll;
 				EXECUTABLE_PREFIX = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;

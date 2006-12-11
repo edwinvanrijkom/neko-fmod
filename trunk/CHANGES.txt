@@ -1,8 +1,9 @@
 KNOWN ISSUES:
-	The Neko-Aspell wrapper doesn't implement the full Aspell C API
+	The Neko-FMOD wrapper doesn't implement the full FMOD C API
+	Wrapper is i386 OSX-10.4+ only
 
 TODO:
-	Extend supported Aspell C API methods
+	Extend supported FMOD C API methods
 	Possible Linux port
 
-2006-11-28 : 1.0.0.0 (Initial release)
+2006-12-10 : 1.0.0.0 (Initial release)

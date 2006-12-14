@@ -6,4 +6,8 @@ TODO:
 	Extend supported FMOD C API methods
 	Possible Linux port
 
+2006-12-14 : 1.0.0.1
+
+Fixed sample missing SeqButtonOpen.as file
+
 2006-12-10 : 1.0.0.0 (Initial release)

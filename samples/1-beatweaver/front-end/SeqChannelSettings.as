@@ -1,4 +1,4 @@
-package {
+﻿package {
 
 import swhx.Api;
 
@@ -8,7 +8,7 @@ import flash.text.TextField;
 
 public class SeqChannelSettings extends MovieClip {
 	public var txtSample: TextField;
-	public var btnOpen: SeqButtonOpen;
+	public var btnOpen: MovieClip;
 	
 	private var _channel: int;
 	

@@ -1,0 +1,1 @@
+The fmod audio library is free for non-commercial use. The neko-fmod project exposes the library to the Neko VM, allowing haXe users to program it.
